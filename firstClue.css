@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #000000, #000000, #000000, #008000);
+}
+
+h1, p {
+    text-align: center; 
+    animation: animate 5s linear infinite;
+}
+
+.question {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes animate {
+    0% {
+        color: white;
+    }
+    10% {
+        color: lightgray;
+    }
+    20% {
+        color: lightslategray;
+    }
+    30% {
+        color: black;
+    }
+    40% {
+        color: lightgreen;   
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: lightgreen;
+    }
+    70% {
+        color: black;
+    }
+    80% {
+        color: lightslategray;
+    }
+    90% {
+        color: lightgray;
+    }
+    100% {
+        color: white;
+    }
+}
